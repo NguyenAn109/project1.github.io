@@ -1,0 +1,131 @@
+/* footer */
+.container-footer {
+    height: 500px;
+    width: 100%;
+    background: #333333;
+}
+
+.container-footer-content {
+    height: 420px;
+    margin: 0 200px 0 200px;
+    color: #fff;
+}
+
+.container-footer-content-row {
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer-content-box01 {
+    margin-top: 80px;
+    width: 450px;
+}
+
+.container-footer-content-box01 h2,
+.container-footer-content-box02 h2,
+.container-footer-content-box03 h2,
+.container-footer-content-box04 h2 {
+    margin-bottom: 20px;
+}
+
+.container-footer-content-box01 a,
+.container-footer-content-box02 a,
+.container-footer-content-box03 a,
+.container-footer-content-box04 a {
+    color: #fff;
+    line-height: 30px;
+}
+
+.container-footer-content-box-icon {
+    margin-top: 40px;
+}
+
+.container-footer-content-box-icon i {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.container-footer-content-box-icon .ti-facebook {
+    background-color: rgb(80, 80, 241);
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.container-footer-content-box-icon .ti-dropbox-alt {
+    background-color: rgb(125, 125, 247);
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.container-footer-content-box-icon .ti-instagram {
+    background-color: rgb(224, 152, 68);
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.container-footer-content-box-icon .ti-linkedin {
+    background-color: rgb(209, 149, 19);
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.container-footer-content-box-icon .ti-sharethis {
+    background-color: rgb(43, 43, 224);
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.container-footer-content-box02 {
+    width: 230px;
+    margin-top: 80px;
+}
+
+.container-footer-content-box03 {
+    width: 260px;
+    margin-top: 80px;
+}
+
+.container-footer-content-box04 {
+    width: 350px;
+    margin-top: 80px;
+}
+
+.container-footer-content-box01 a:hover,
+.container-footer-content-box02 a:hover,
+.container-footer-content-box03 a:hover {
+    color: var(--brow-bg);
+    transition: 0.3s;
+}
+
+.container-footer-content-box04 p {
+    margin-bottom: 10px;
+}
+
+.container-footer-content-box04 a img {
+    margin-top: 10px;
+}
+
+.container-footer-watch {
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid #484848;
+}
+
+.container-footer-watch-row {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.container-footer-watch-row p span {
+    font-weight: 700;
+    color: #c89979;
+}
+
+.See-more-img {
+    width: 100%;
+    height: 100vh;
+}

@@ -1,0 +1,634 @@
+.main-box-container-row{
+    position: relative;
+}
+
+.main-box-container-row-second{
+    position: relative;
+}
+.body{
+    position: absolute;
+    top: -12%;
+    height: 100vh;
+    width: 55%;
+    left: 45px;
+}
+.body2{
+    position: absolute;
+    top: -12%;
+    height: 100vh;
+    width: 55%;
+    left: 45px;
+}
+.body4{
+    position: absolute;
+    top: -12%;
+    height: 100vh;
+    width: 55%;
+    left: 45px;
+}
+.body6{
+    position: absolute;
+    top: -12%;
+    height: 100vh;
+    width: 55%;
+    left: 45px;
+}
+
+.body8{
+    position: absolute;
+    top: -12%;
+    height: 100vh;
+    width: 55%;
+    left: 45px;
+}
+.body{
+    position: absolute;
+    top: -12%;
+    height: 100vh;
+    width: 55%;
+    left: 45px;
+}
+.body1{
+    margin-left: 30px;
+    position: absolute;
+    top: -12%;
+    height: 100vh;
+    width: 55%;
+    right: -55px;
+    z-index: 1;
+}
+.body3{
+    margin-left: 30px;
+    position: absolute;
+    top: -12%;
+    height: 100vh;
+    width: 55%;
+    right: -55px;
+    z-index: 1;
+}
+.body5{
+    margin-left: 30px;
+    position: absolute;
+    top: -12%;
+    height: 100vh;
+    width: 55%;
+    right: -55px;
+    z-index: 1;
+}
+
+.container{
+    height: 30%;
+}
+
+.main{
+    width: 90%;
+    height: auto;
+    position: relative;
+}
+
+.img-main{
+    width: 100%;
+    object-fit: cover;
+    object-position: cover;
+}
+
+.control{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);  
+}
+
+.control i{
+    padding: 13px 13px 13px 13px;
+    background-color: rgb(240, 240, 229);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.control i:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.2s;
+}
+
+.prev{
+    position: relative;
+}
+.next{
+    position: relative;
+}
+.list-img{
+    height: 17%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+
+}
+.list-slider{
+    text-align: center;
+    margin: 10px;
+}
+.list-slider>img{
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.active{
+    border-radius: 10px;
+}
+
+.container-dress .container-box{
+    color: #000;
+}
+
+#sud-adress{
+    display: none;
+}
+
+/* 1 */
+.container1{
+    height: 30%;
+}
+
+.main1{
+    width: 90%;
+    height: auto;
+    position: relative;
+}
+
+.img-main1{
+    width: 100%;
+    object-fit: cover;
+    object-position: cover;
+}
+
+.control1{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);  
+}
+
+.control1 i{
+    padding: 13px 13px 13px 13px;
+    background-color: rgb(240, 240, 229);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.control1 i:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.2s;
+}
+
+.prev1{
+    position: relative;
+}
+.next1{
+    position: relative;
+}
+.list-img1{
+    width: 100%;
+    height: 17%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+
+}
+.list-slider1{
+    text-align: center;
+    margin: 10px;
+}
+.list-slider1>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.active1{
+    border-radius: 10px;
+}
+
+.container-dress1 .container-box1{
+    color: #000;
+}
+
+/* 3 */
+.container3{
+    height: 30%;
+}
+
+.main3{
+    width: 90%;
+    height: auto;
+    position: relative;
+}
+
+.img-main3{
+    width: 100%;
+    object-fit: cover;
+    object-position: cover;
+}
+
+.control3{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);  
+}
+
+.control3 i{
+    padding: 13px 13px 13px 13px;
+    background-color: rgb(240, 240, 229);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.control3 i:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.2s;
+}
+
+.prev3{
+    position: relative;
+}
+.next3{
+    position: relative;
+}
+.list-img3{
+    width: 100%;
+    height: 17%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+
+}
+.list-slider3{
+    text-align: center;
+    margin: 10px;
+}
+.list-slider3>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.active3{
+    border-radius: 10px;
+}
+
+.container-dress3 .container-box3{
+    color: #000;
+}
+
+
+/* 5 */
+.container5{
+    height: 30%;
+}
+.main5{
+    width: 90%;
+    height: auto;
+    position: relative;
+}
+.img-main5{
+    width: 100%;
+    object-fit: cover;
+    object-position: cover;
+}
+.control5{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);  
+}
+.control5 i{
+    padding: 13px 13px 13px 13px;
+    background-color: rgb(240, 240, 229);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.control5 i:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.2s;
+}
+.prev5{
+    position: relative;
+}
+.next5{
+    position: relative;
+}
+.list-img5{
+    width: 100%;
+    height: 17%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+
+}
+.list-slider5{
+    text-align: center;
+    margin: 10px;
+}
+.list-slider5>img{
+    width: 100%;
+    height: 100%;
+}
+.active5{
+    border-radius: 10px;
+}
+
+.container-dress5 .container-box5{
+    color: #000;
+}
+/* 2 */
+.container2{
+    height: 30%;
+}
+
+.main2{
+    width: 90%;
+    height: auto;
+    position: relative;
+}
+
+.img-main2{
+    width: 100%;
+    object-fit: cover;
+    object-position: cover;
+}
+
+.control2{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);  
+}
+
+.control2 i{
+    padding: 13px 13px 13px 13px;
+    background-color: rgb(240, 240, 229);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.control2 i:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.2s;
+}
+
+.prev2{
+    position: relative;
+}
+.next2{
+    position: relative;
+}
+.list-img2{
+    width: 100%;
+    height: 17%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+
+}
+.list-slider2{
+    text-align: center;
+    margin: 10px;
+}
+.list-slider2>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.active2{
+    border-radius: 10px;
+}
+
+.container-dress2 .container-box2{
+    color: #000;
+}
+/* 4 */
+.container4{
+    height: 30%;
+}
+
+.main4{
+    width: 90%;
+    height: auto;
+    position: relative;
+}
+
+.img-main4{
+    width: 100%;
+    object-fit: cover;
+    object-position: cover;
+}
+
+.control4{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);  
+}
+
+.control4 i{
+    padding: 13px 13px 13px 13px;
+    background-color: rgb(240, 240, 229);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.control4 i:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.2s;
+}
+
+.prev4{
+    position: relative;
+}
+.next4{
+    position: relative;
+}
+.list-img4{
+    width: 100%;
+    height: 17%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+
+}
+.list-slider4{
+    text-align: center;
+    margin: 10px;
+}
+.list-slider4>img{
+    width: 100%;
+    height: 100%;
+}
+
+.active4{
+    border-radius: 10px;
+}
+
+.container-dress4 .container-box4{
+    color: #000;
+}
+/* 6 */
+.container6{
+    height: 30%;
+}
+
+.main6{
+    width: 90%;
+    height: auto;
+    position: relative;
+}
+
+.img-main6{
+    width: 100%;
+    object-fit: cover;
+    object-position: cover;
+}
+
+.control6{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);  
+}
+
+.control6 i{
+    padding: 13px 13px 13px 13px;
+    background-color: rgb(240, 240, 229);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.control6 i:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.2s;
+}
+
+.prev6{
+    position: relative;
+}
+.next6{
+    position: relative;
+}
+.list-img6{
+    width: 100%;
+    height: 17%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+
+}
+.list-slider6{
+    text-align: center;
+    margin: 10px;
+}
+.list-slider6>img{
+    width: 100%;
+    height: 100%;
+}
+
+.active6{
+    border-radius: 10px;
+}
+
+.container-dress6 .container-box6{
+    color: #000;
+}
+/* 6 */
+.container8{
+    height: 30%;
+}
+
+.main8{
+    width: 90%;
+    height: auto;
+    position: relative;
+}
+
+.img-main8{
+    width: 100%;
+    object-fit: cover;
+    object-position: cover;
+}
+
+.control8{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);  
+}
+
+.control8 i{
+    padding: 13px 13px 13px 13px;
+    background-color: rgb(240, 240, 229);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.control8 i:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.2s;
+}
+
+.prev8{
+    position: relative;
+}
+.next8{
+    position: relative;
+}
+.list-img8{
+    width: 100%;
+    height: 17%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+
+}
+.list-slider8{
+    text-align: center;
+    margin: 10px;
+}
+.list-slider8>img{
+    width: 100%;
+    height: 100%;
+}
+
+.active8{
+    border-radius: 10px;
+}
+
+.container-dress8 .container-box8{
+    color: #000;
+}
+
+

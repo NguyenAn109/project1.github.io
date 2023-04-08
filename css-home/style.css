@@ -1,0 +1,495 @@
+@font-face {
+    font-family: FjallaOne-Regular;
+    src: url(../font/FjallaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url();
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+body{
+    width: 100%;
+    font-family: Inter;
+}
+
+.header-container{
+    width: 100%;
+    height:960px;
+    overflow: hidden;
+}
+
+.header-container-top{
+    height: 100px;
+    width: 100vw;
+    
+}
+.header-container-top-row{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 200px 0 200px;
+    justify-content: space-between;
+    
+}
+
+.header-container-top-row-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-container-top-row-left img{
+    width: 50px;
+    margin-right: 20px;
+    
+}
+
+.header-container-top-row-left img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.header-container-top-row-left .header-container-top-row-left-nameGroup {
+    font-size: 32px;
+    font-family: FjallaOne-Regular;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    color: #000;
+    margin-left: 40px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+nav ul {
+    position: relative;
+}
+
+nav ul .line{
+    display: none;
+}
+
+nav ul li:hover .line{
+    display: block;
+    animation: appear-from-bottom 0.5s ease-out;
+}
+
+/* Set up the animation */
+@keyframes appear-from-bottom {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+nav>ul .ntd1{
+    position: absolute;
+    height: 5px;
+    width: 80px;
+    background: #00A78E;
+    top: -12px;
+    left: 40px;
+    border-radius: 10px;
+}
+
+nav>ul .ntd2{
+    position: absolute;
+    height: 5px;
+    width: 80px;
+    background: #00A78E;
+    top: -12px;
+    left: 155px;
+    border-radius: 10px;
+}
+
+nav>ul .ntd3{
+    position: absolute;
+    height: 5px;
+    width: 63px;
+    background: #00A78E;
+    top: -12px;
+    left: 270px;
+    border-radius: 10px;
+}
+
+nav>ul .ntd4{
+    position: absolute;
+    height: 5px;
+    width: 100px;
+    background: #00A78E;
+    top: -12px;
+    left: 368px;
+    border-radius: 10px;
+}
+
+nav>ul .ntd5{
+    position: absolute;
+    height: 5px;
+    width: 57px;
+    background: #00A78E;
+    top: -12px;
+    left: 505px;
+    border-radius: 10px;
+}
+
+nav ul li:hover a{
+    color: #00A78E;
+}
+
+.header-container-top-row-right {
+    position: relative;   
+}
+.header-container-top-row-right input{
+    height: 35px;
+    width: 180px;
+    border-radius: 20px;
+    opacity: 40%;
+    padding: 0 40px 0 8px;
+}
+
+.header-container-top-row-right i{
+    position: absolute;
+    color: #000;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 24px;
+    font-size: 18px;
+}
+
+.header-container-top-row-right .layer4 img{
+    width: 300px;
+    position: absolute;
+    top: -160px;
+    right: -300px;
+    transform: rotate(-20deg);
+}
+
+/* main */
+
+.header-container-main{
+    max-width: 100vw;
+}
+
+.header-container-container{
+    max-width: 100vw;
+    position: relative;
+    height: 860px;
+    overflow: hidden;
+}
+
+.header-container-container .layer1{
+    position: absolute;
+    top: 26%;
+    left: -610px;
+    transform: rotate(30deg);
+}
+.header-container-container .layer1 img{
+    width: 40%;
+    transform: rotate(55deg);
+}
+
+.header-container-container .icon-select-program{
+    position: absolute;
+    top: 90px; 
+    height: 20px;
+}
+
+.header-container-container .icon-select-program li{
+    padding: 10px;
+}
+.header-container-container .icon-select-program a{
+    display: flex;
+    align-items: center;
+}
+.header-container-container .icon-select-program img{
+    width: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.header-container-container .icon-select-program>ul>li>a>span{
+    color: #000;
+    display: none;
+    
+}
+
+.header-container-container .icon-select-program ul:hover li a span
+{
+    color: #000;
+    display: block;
+    animation: slide 0.5s ease-in-out;
+    transform: translateX(0%); 
+}
+.header-container-container .icon-select-program ul li:hover a span
+{
+    color: #00A78E;
+    
+}
+
+@keyframes slide {
+    0% {
+      transform: translateX(-50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+.header-container-container .icon-select-program ul li a:hover img{
+    transform: scale(1.3);
+}
+
+.header-container-container .icon-select-program ul li span {
+    color: #000;
+    display: block;
+}
+
+  
+  
+
+.header-container-container .titel{
+    position: absolute;
+    top: 100px;
+    left: 13%;
+}
+
+.header-container-container .titel .text:nth-child(2){
+    margin-top: 7px;
+    color: #00A78E;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.header-container-container .titel .text:nth-child(1){
+    font-weight: 600; 
+    font-size: 40px;
+}
+
+.header-container-container .titel .text:nth-child(3){
+    margin-top: 20px;
+    line-height: 1.4em;
+    width: 600px;
+    opacity: 70%;
+}
+
+.header-container-container .layer2{
+    position: absolute;
+    top: 8%;
+    right: -1100px;
+}
+
+.header-container-container .layer2 img{
+    width: 40%;
+    transform: rotate(12deg);
+}
+
+.header-container-container .layer3{
+    position: absolute;
+    top: 550px;
+    right: 0px;
+    transform: rotate(10deg);
+    transform: rotate(25deg);
+}
+
+.header-container-container .layer3 img{
+    width: 130px;
+    transform: rotate(10deg);  
+}
+
+.header-container-container .layer4{
+    position: absolute;
+    top: 250px;
+    right: 240px;
+}
+
+.header-container-container .layer4 img{
+    width: 550px; 
+}
+
+.header-container-container .layer5{
+    position: absolute;
+    top: 500px;
+    right: 100px;
+}
+
+.header-container-container .layer5 img{
+    width: 220px; 
+}
+.header-container-container .layer5 img:nth-child(2){
+    margin-left: 350px;
+}
+
+.header-container-main .see-more-button{
+    margin-top: 50px;
+    height: 60px;
+    width: 400px;
+}
+.header-container-main .see-more-button a{
+    position: relative;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    color: #000;
+    font-weight: 600;
+}
+
+.header-container-main .see-more-button button{
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.header-container-main .see-more-button img{
+    width: 70px;
+    margin-right: 25px;
+}
+
+.header-container-main .see-more-button .line{
+    position: absolute;
+    background: #000;
+    height: 4px;
+    width: 120px;
+    right: 0;
+    border-radius: 10px;
+
+}
+
+
+.header-container-main .chambi1 img{
+    width: 180px;
+}
+
+.header-container-main .chambi1{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+.header-container-main .chambi2 img{
+    width: 180px;
+    opacity: 70%;
+}
+
+.header-container-main .chambi2{
+    position: absolute;
+    top: 250px;
+    left: 740px;
+}
+
+.header-container-main .see-more-button .line{
+    position: absolute;
+    background: #000;
+    height: 4px;
+    width: 120px;
+    bottom: 18px;
+    right: 0;
+}
+
+.header-container-container-subnav{
+    width: 400px;
+    position: absolute;
+    bottom:80px;
+    display: flex;
+    left: 350px;
+}
+.header-container-container-subnav ul{
+    display: flex;
+    justify-content: center;
+}
+.header-container-container-subnav ul li{
+    margin-left: 50px;
+}
+.header-container-container-subnav ul li a{
+    color: #000;
+    font-size: 1.3em;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.header-container-container-subnav a:hover{
+    color: #00A78E;
+}
+
+
+.header-container-container-subnav ul .line{
+    display: none;
+}
+
+.header-container-container-subnav ul li:hover .line{
+    display: block;
+    animation: subnav-bottom 0.5s ease-out;
+}
+
+/* Set up the animation */
+@keyframes subnav-bottom {
+    from {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+.header-container-container-subnav>ul .ntd1{
+    position: absolute;
+    height: 5px;
+    width: 100px;
+    background: #00A78E;
+    bottom: -10px;
+    left: 50px;
+    border-radius: 10px;
+}
+
+.header-container-container-subnav>ul .ntd2{
+    position: absolute;
+    height: 5px;
+    width: 114px;
+    background: #00A78E;
+    bottom: -10px;
+    left: 200px;
+    border-radius: 10px;
+}
+
+
+#button-Scroll-To-Header button{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: #00A78E;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+
